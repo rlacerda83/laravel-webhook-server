@@ -7,7 +7,7 @@
         "webhook",
         "server"
     ],
-    "homepage": "https://github.com/spatie/laravel-webhook-server",
+    "homepage": "https://github.com/rlacerda83/laravel-webhook-server",
     "license": "MIT",
     "authors": [
         {
@@ -29,16 +29,6 @@
         "psr-4": {
             "Spatie\\WebhookServer\\": "src"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Spatie\\WebhookServer\\Tests\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
